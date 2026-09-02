@@ -52,10 +52,23 @@ The chain lives on κ = 4(1 + V²) ≥ 4; the bundle's fibre on κ = 0; no poten
 filling with |p|, |q| ≤ 8 gives the bundle a real fibre-boundary trace. The two are different real slices of one
 dynamics and should not be conflated.
 
-## 5. What is not claimed
+## 5. The Chern-Simons bit (T17)
+
+The bundle m004 is amphichiral (Sym = D4, four orientation-reversing isometries), so its Chern-Simons invariant sits at
+2-torsion: CS ∈ {0, 1/2} mod 1; numerically CS(m004) = 0. CS is odd under both the cusp-determinant involution (c) and
+the H₁-sign involution (γ₅). If c is identified with parity P and γ₅ with time reversal T, then the object's three
+axes map to three CPT types: chirality → W (P-odd, T-even), time → K (T-odd, P-even), CS → E (P-odd, T-odd). The
+Standard Model's dimensionless β-odd parameters sort the same way: δ_CKM, δ_PMNS are K-type; θ̄_QCD is E-type. The
+2-torsion constraint then gives θ̄_QCD ∈ {0, π}, with m004 at 0. This is a one-bit prediction, conditional on the
+dictionary c = P, γ₅ = T. Of the first 594 chiral one-cusped census manifolds, exactly one (m004 itself) sits at a
+2-torsion CS value; a generic chiral manifold would give a generic θ̄.
+
+## 6. What is not claimed
 
 No Lie algebra, gauge group, generation count, or dimensionful number is derived (NOT_CLAIMED.md). The McKay lookups
 that the origin-axiom record built on emit only E6 or E8 and are constant on the bundle's commensurability class (T05).
+The θ̄ prediction (§5) is conditional on the dictionary; the current bound |θ̄| < 10⁻¹⁰ is consistent but does not
+distinguish it from a dynamical relaxation (e.g. an axion).
 
 ## Open work before submission
 
