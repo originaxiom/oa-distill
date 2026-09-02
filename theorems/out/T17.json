@@ -1,0 +1,109 @@
+{
+ "chiral_census": [
+  594,
+  1
+ ],
+ "cs_m004": 1.3498693315439662e-16,
+ "dictionary": "c=P,gamma5=T (A8)",
+ "field_class": {
+  "m003": {
+   "amph": true,
+   "cs": 0.25
+  },
+  "m004": {
+   "amph": true,
+   "cs": 0.0
+  },
+  "m202": {
+   "amph": false,
+   "cs": 0.083333333
+  },
+  "m203": {
+   "amph": true,
+   "cs": 0.0
+  },
+  "m206": {
+   "amph": true,
+   "cs": 0.0
+  },
+  "m207": {
+   "amph": true,
+   "cs": 0.25
+  },
+  "m208": {
+   "amph": false,
+   "cs": 0.0
+  },
+  "m410": {
+   "amph": false,
+   "cs": 0.375
+  },
+  "m412": {
+   "amph": false,
+   "cs": 0.375
+  },
+  "s118": {
+   "amph": false,
+   "cs": 0.083333333
+  },
+  "s119": {
+   "amph": false,
+   "cs": 0.416666667
+  },
+  "s594": {
+   "amph": false,
+   "cs": 0.125
+  },
+  "s595": {
+   "amph": false,
+   "cs": 0.0
+  },
+  "s596": {
+   "amph": true,
+   "cs": 0.0
+  }
+ },
+ "fillings": {
+  "2": [
+   -0.246607,
+   0.246607
+  ],
+  "5": [
+   -0.099694,
+   0.099694
+  ],
+  "10": [
+   -0.049959,
+   0.049959
+  ],
+  "40": [
+   -0.012499,
+   0.012499
+  ]
+ },
+ "parity_classes": [
+  [
+   -1,
+   -1
+  ],
+  [
+   -1,
+   1
+  ],
+  [
+   1,
+   -1
+  ],
+  [
+   1,
+   1
+  ]
+ ],
+ "prediction": "theta-bar in {0,pi}, m004 -> 0; weak phases free",
+ "sym_order": 8,
+ "types": {
+  "CS (absent axis)": "E",
+  "T4 (chirality row)": "W",
+  "T7 = T3 (time row)": "K"
+ }
+}

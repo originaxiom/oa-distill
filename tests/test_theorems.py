@@ -85,3 +85,11 @@ def test_T15_metallic_chains():
     for m in ('1', '2', '3'):
         assert d[m]['max_residual'] < 3 / d[m]['sites'] and abs(d[m]['omega'] - d[m]['freq_b']) < 1e-6
     assert d['2']['max_residual_wrong_omega'] > 1e-2 and d['3']['max_residual_wrong_omega'] > 1e-2
+
+def test_T17_beta_odd_bit():
+    d = load('T17')
+    assert d['sym_order'] == 8 and abs(d['cs_m004']) < 1e-9
+    assert d['types'] == {'T4 (chirality row)': 'W', 'T7 = T3 (time row)': 'K', 'CS (absent axis)': 'E'}
+    assert d['chiral_census'][0] == 594 and d['chiral_census'][1] == 1
+    assert 'theta-bar' in d['prediction'] and 'm004 -> 0' in d['prediction']
+    assert d['field_class']['m004']['cs'] == 0.0 and d['field_class']['m003']['cs'] == 0.25
