@@ -40,3 +40,9 @@ def test_T07_dictionary():
     d = load('T07')
     assert d['classes'] == 4 and sorted(d['admissible']) == ['c=C,gamma5=T', 'c=P,gamma5=C', 'c=P,gamma5=T']
     t = d['admissible']['c=P,gamma5=T']; assert t['T4'] == 'W' and t['T7'] == 'K' and t['absent(odd,odd)'] == 'E'
+def test_T08_spectrum():
+    d = load('T08')
+    assert d['sites'] == 10947 and d['max_label_residual'] < 3 / d['sites']
+    assert all(v[0] for v in d['k4_same'].values()) and d['four_letter_max_residual'] > 1e-3
+    assert d['trace_map_matches_fricke'] is True and d['fricke_spread'] < 1e-12
+    assert sorted(abs(r[3]) for r in d['labels']) == [1, 1, 1, 1, 2, 2, 3, 3, 4, 4, 6, 6]

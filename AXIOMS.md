@@ -9,7 +9,7 @@
 | A4 | An orientation of m004 (equivalently: an embedding ℚ(√−3) ↪ ℂ; a sheet of the double cover; the parity of σ-steps called "even"). | the mirror | T04: one bit, unsuppliable by the object |
 | A5 | The direction of the flow (A vs A⁻¹; the sign of √5). | the reverse | T04: one bit |
 | A6 | The SL(2,ℂ) lift sign of the holonomy. | the other lift | T04: one bit |
-| A7 | A scale. | — | T04, T07: one real parameter, withheld by the object |
+| A7 | A scale. | — | T04, T07: one real parameter, withheld by the object; in T08 it is the hopping/lattice spacing the experimenter builds |
 | A8 | The dictionary c = P, γ5 = T from the object's closing bits to reality's flips. | c = C, γ5 = T; c = P, γ5 = C | T07: the testable dictionary, entered as a declared input |
 
 No other choice is used. In particular the field ℚ(√−3), the label E6, the Bianchi group and the 14-member family are

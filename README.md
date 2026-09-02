@@ -1,7 +1,7 @@
 # oa-distill — the golden mapping torus, distilled to what is proved
 
 This repository holds only what survived independent recomputation in the origin-axiom physics seat (September 2026):
-seven theorem modules, each a statement with its **comparison class**, a script that proves it in about a minute, and a
+eight theorem modules, each a statement with its **comparison class**, a script that proves it in about a minute, and a
 test that fails if its numbers drift. There is no progress log, no verdict file, no arc. Choices are listed once, with
 their price, in `AXIOMS.md`. What we do not claim is in `NOT_CLAIMED.md`. The discipline that keeps this tree honest is
 in `RULES.md`.
@@ -15,6 +15,7 @@ in `RULES.md`.
 | T05 | The route field → conductor → SL(2,ℤ/N) → McKay emits only A₀, E6, E8; on hyperbolic manifolds only E6; 14 of the first 1200 census manifolds share m004's field, one commensurability class. | `theorems/T05_field_lookups.py` |
 | T06 | Within that class, H1, cusp shape and subgroup growth single out m004; the sister's closings differ at every slope; the two triangulations define different deformation curves and different DGG theories. | `theorems/T06_object_beyond_field.py` |
 | T07 | Reality's discrete choices mod CPT are rank 2; three dictionaries to the object's lattice survive; one is testable now and yields four sign predictions. | `theorems/T07_locking_dictionary.py` |
+| T08 | The Fibonacci chain built from the rule has gaps labelled by ℤ + ℤ/φ (gap-labelling theorem; measured in photonic, polaritonic and cold-atom chains); the spectrum is the bounded-orbit set of the rule's own Fricke action, with the Fricke invariant conserved; all four K4 rules give the same labels, the four-letter rule does not. This is the rule's measured physics; its scale is the experimenter's (A7). | `theorems/T08_rule_spectrum.py` |
 
 Run everything: `./run_all.sh` (SnapPy ≥ 3.3, sympy ≥ 1.12). Tests: `pytest -q tests`.
 
