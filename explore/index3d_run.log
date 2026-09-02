@@ -1,0 +1,22 @@
+/usr/local/lib/python3.11/dist-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+{'m004': 2, 'm003': 2}
+perm (0, 1, 2): m004-invariant=True m003-differs=True
+    m004: 1x^0 -2x^2 -3x^4 5x^8 14x^10 17x^12
+    m003: 1x^0 -1x^12
+perm (0, 2, 1): m004-invariant=True m003-differs=True
+    m004: -1x^-35 -2x^-33 -5x^-31 1x^-30 -10x^-29 3x^-28 -20x^-27 7x^-26 -36x^-25 14x^-24 -64x^-23 28x^-22 2x^-21 -14x^-20 5x^-19 
+    m003: 5886x^-40 5276x^-38 5209x^-36 1174x^-34 326x^-32 -3462x^-30 -9013x^-28 -12720x^-26 -14344x^-24 -8460x^-22 -5302x^-20 -53
+perm (1, 0, 2): m004-invariant=True m003-differs=True
+    m004: 1x^0 -2x^2 -3x^4 5x^8 14x^10 17x^12
+    m003: 1x^0 -1x^12
+perm (1, 2, 0): m004-invariant=True m003-differs=True
+    m004: -1x^-35 -2x^-33 -5x^-31 1x^-30 -10x^-29 3x^-28 -20x^-27 7x^-26 -36x^-25 14x^-24 -64x^-23 28x^-22 2x^-21 -14x^-20 5x^-19 
+    m003: 5886x^-40 5276x^-38 5209x^-36 1174x^-34 326x^-32 -3462x^-30 -9013x^-28 -12720x^-26 -14344x^-24 -8460x^-22 -5302x^-20 -53
+perm (2, 0, 1): m004-invariant=True m003-differs=True
+    m004: -1x^-21 -4x^-19 -11x^-17 -26x^-15 -15x^-13 11x^-11 26x^-9 55x^-7 34x^-5 -10x^-3 -12x^-2 -23x^-1 6x^0 -47x^1 25x^2 -88x^3
+    m003: 8657x^-40 6266x^-38 2590x^-36 3938x^-34 5475x^-32 7612x^-30 812x^-28 1x^-27 5738x^-26 4x^-25 3695x^-24 14x^-23 -5428x^-2
+perm (2, 1, 0): m004-invariant=True m003-differs=True
+    m004: -1x^-21 -4x^-19 -11x^-17 -26x^-15 -15x^-13 11x^-11 26x^-9 55x^-7 34x^-5 -10x^-3 -12x^-2 -23x^-1 6x^0 -47x^1 25x^2 -88x^3
+    m003: 8657x^-40 6266x^-38 2590x^-36 3938x^-34 5475x^-32 7612x^-30 812x^-28 1x^-27 5738x^-26 4x^-25 3695x^-24 14x^-23 -5428x^-2
+DONE
