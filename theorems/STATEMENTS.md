@@ -52,7 +52,11 @@ each verified against a filled structure; hence the DGG theories T[m004], T[m003
 T07 -- THE LOCKING DICTIONARY.  Statement: a world's discrete choices (h: weak handedness, m: matter label, t: arrow)
 mod CPT form a rank-2 space; a nonzero measured sign is CPT-even and of one of four types by (eP, eC, eT); the object's
 closing lattice (T4, T6 mirror-odd; T7 = T3 flow-odd; no (odd,odd) axis) admits six dictionaries to {P, C, T}, of which
-three pass the axes' own semantics and one (c = P, gamma5 = T) is populated by measured signs.  Predictions follow.
+three pass the axes' own semantics and one (c = P, gamma5 = T) is populated by measured signs.
+THE LIMIT (added 2026-09-02, the seat testing its own proposal): the product of two signs of the same type is EVEN
+type (eP eC eT = (+,+,+)), and EVEN quantities are exactly what no closing bit reaches.  So the dictionary fixes no
+relative sign between two handedness signs, two CP/T asymmetries, or two EDMs: its only content is CPT's own type
+bookkeeping.  The four "predictions" of the first version are withdrawn; no falsifiable sign statement survives.
 Comparison class: all dictionaries.
 
 ## T08_rule_spectrum.py

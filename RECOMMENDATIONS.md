@@ -6,8 +6,9 @@
   physics. It is the only physics the program has.
 - The mapping torus is settled mathematics (T02–T04, T06, T09, T10): its field and mirror pair come from the rule and
   the puncture (T09), its three closing bits are a theorem, and it shares no level set with the chain (T10).
-- The Standard Model chain is field-level (T05) and is not in this tree. The only forward statement about particle
-  physics is the sign dictionary (T07), which today constrains relative signs only (PREREGISTRATION).
+- The Standard Model chain is field-level (T05) and is not in this tree. The sign dictionary (T07) was the only
+  forward statement about particle physics; tested against itself it fixes nothing (PREREGISTRATION correction). The
+  tree's physics is C1–C4, all known.
 
 ## Options, with the seat's recommendation first
 
@@ -21,8 +22,8 @@
    object-level quantum invariant in the tree. It is 3d N = 2 physics, not the Standard Model; say so.
 3. **Done (T13/T13b).** The rule-side statement "conductor 3 is m = 1 alone" is exact for m = 1..4, and each metallic
    bundle's fibre field is derived from its rule and the puncture, matching SnapPy's holonomy polynomial for polynomial.
-4. **Pre-register an absolute sign** (T12). Not possible today; becomes possible only if the lift sign θ acquires a
-   physical reading. Do not force it.
+4. ~~Pre-register an absolute sign (T12).~~ **Withdrawn 2026-09-02:** the dictionary fixes no sign, absolute or relative
+   (PREREGISTRATION correction). The tree contains no falsifiable particle-physics statement.
 5. **Do not** build a map from the mapping torus to a 4d gauge theory. No such map exists in the record or in this
    tree; the instrument-image rule (RULES 3) would reject every candidate the record produced.
 

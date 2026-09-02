@@ -19,3 +19,12 @@ T07's testable dictionary (c = P, γ5 = T) fixes **relative** signs only:
 
 Conclusion: no module T12 is written, because no absolute sign prediction exists. This file is the record of that fact so
 that a later claim of a "pre-registered prediction" cannot be made retroactively.
+
+## Correction (later on 2026-09-02): the relative-sign statements above are empty too
+
+The seat tested its own proposal. Every quantity the dictionary was said to fix — the relative sign of two K-type
+asymmetries (P1), of two W-type handedness signs (P2), of two EDMs (P3) — is the product of two signs of the same CPT
+type, hence of type (ε_P, ε_C, ε_T) = (+, +, +): EVEN. EVEN quantities are dynamical and lie in the image of no
+dictionary (T07 now checks this). So the dictionary fixes no relative sign either; P1–P3 are withdrawn, and P4 is CPT's
+own bookkeeping, not a prediction. **This tree contains no falsifiable statement about particle physics.** Its physics
+contact is C1–C4 (the rule's chain) only.

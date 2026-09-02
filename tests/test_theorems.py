@@ -40,6 +40,7 @@ def test_T07_dictionary():
     d = load('T07')
     assert d['classes'] == 4 and sorted(d['admissible']) == ['c=C,gamma5=T', 'c=P,gamma5=C', 'c=P,gamma5=T']
     t = d['admissible']['c=P,gamma5=T']; assert t['T4'] == 'W' and t['T7'] == 'K' and t['absent(odd,odd)'] == 'E'
+    assert d['same_type_ratio_is_even'] is True and d['even_in_image'] is False and d['predictions'] == []
 def test_T08_spectrum():
     d = load('T08')
     assert d['sites'] == 10947 and d['max_label_residual'] < 3 / d['sites']

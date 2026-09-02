@@ -23,11 +23,8 @@
   }
  },
  "classes": 4,
- "predictions": [
-  "P1: all K-type signs (CP/T rate asymmetries) are one bit; test: the sign of the leptonic CP phase",
-  "P2: all W-type signs (handedness) are one bit up to the lift sign; needs a physical reading of the chord (none yet)",
-  "P3: E-type signs (EDMs) are products of the two rows: relative signs of different EDMs are fixed; two measured EDMs decide",
-  "P4: no K-type sign in the chirality row, no W-type sign in the time row (decidable now; not violated)"
- ],
+ "even_in_image": false,
+ "predictions": [],
+ "same_type_ratio_is_even": true,
  "testable": "c=P,gamma5=T"
 }
