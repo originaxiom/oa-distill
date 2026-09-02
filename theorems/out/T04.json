@@ -1,0 +1,17 @@
+{
+ "CS": 1.3498693315439662e-16,
+ "T4_mirror_odd": true,
+ "T7_time_odd": true,
+ "Vol": 2.029883212819307,
+ "abelian": true,
+ "bits": [
+  "mirror (c)",
+  "flow reversal (gamma5)",
+  "lift sign (theta)"
+ ],
+ "continuous": [
+  "scale"
+ ],
+ "cusp_group_order": 4,
+ "linear_characters": 4
+}

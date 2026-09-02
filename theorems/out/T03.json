@@ -1,0 +1,58 @@
+{
+ "amphichiral": true,
+ "character": [
+  [
+   -1.4999999999999996,
+   0.8660254037844389
+  ],
+  [
+   1.0000000000000002,
+   -1.7320508075688772
+  ],
+  [
+   -2.0000000000000004,
+   -2.3314683517128287e-15
+  ]
+ ],
+ "first": [
+  [
+   "aabAB",
+   "abaBAba",
+   "-I"
+  ],
+  [
+   "aabAB",
+   "babaBAA",
+   "-I"
+  ],
+  [
+   "aabAB",
+   "baBAAba",
+   "-I"
+  ]
+ ],
+ "invertible_examples": [
+  [
+   -3,
+   -2,
+   5,
+   3
+  ],
+  [
+   -3,
+   5,
+   -2,
+   3
+  ],
+  [
+   -1,
+   -1,
+   2,
+   1
+  ]
+ ],
+ "n_conjugate_realisations": 132,
+ "n_isometries": 8,
+ "n_orientation_reversing": 4,
+ "sym_order": 8
+}
