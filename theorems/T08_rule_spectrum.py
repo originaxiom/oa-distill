@@ -19,7 +19,7 @@ def spectrum(word, N=None, pot=None):
     pot = pot or {'a': V, 'b': -V}
     d = np.array([pot[c] for c in word])[:N]; e = np.ones(len(d) - 1)
     return eigh_tridiagonal(d, e, eigvals_only=True)
-def gap_labels(ev, n_gaps=12, ncand=40):
+def gap_labels(ev, n_gaps=12, ncand=12):
     ev = np.sort(ev); N = len(ev); gaps = np.diff(ev); order = np.argsort(gaps)[::-1][:n_gaps]
     out = []
     for i in sorted(order):

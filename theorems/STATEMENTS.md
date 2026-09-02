@@ -86,3 +86,27 @@ Dehn filling (p,q) of m004 moves the fibre boundary (the longitude of 4_1) off p
 tr(longitude) + 2 = l + 1/l + 2; the chain's level sets need l real and > 0, l != 1.  We compute the longitude
 eigenvalue for all hyperbolic fillings |p|,|q| <= 8 and report whether any is real.  Comparison class: all V; all
 fillings in the box.
+
+## T13_metallic_fields.py
+
+T13 -- THE METALLIC FIBRE FIELDS, EXACTLY.  Statement: for the metallic rules sigma_m: a -> a^m b, b -> a, the
+fixed points of the squared Fricke action on the Markoff surface (kappa = 0), up to the SL(2) lift signs, have
+x-coordinates whose minimal polynomials over Q are found by integer relations at 60 digits.  m = 1 gives x^2 - 3x + 3
+(discriminant -3); the other m give the fields of the metallic bundles' fibre characters.  Comparison class: m = 1..5,
+four sign twists.  This is the rule-side statement of which member of the class carries conductor 3.
+
+## T14_gap_law.py
+
+T14 -- A MEASURABLE LAW OF THE RULE'S CHAIN.  Statement: in the on-site Fibonacci chain (T08) the gap at label n
+(IDS = n/phi mod 1) opens with the potential V as a power law width_n ~ C_n V^{p_n} for small V; the exponents p_n are
+computed here from the spectrum (10946 sites) by log-log regression over V in [0.02, 0.4] and reported with residuals.
+All labels open linearly (exponents ~1); the coefficients are tabulated, not fitted to a formula.  Experiment class: any realisation of the Fibonacci chain with a tunable modulation
+depth (photonic waveguide arrays, polariton wires, cold atoms in bichromatic lattices): the ratio of gap widths at
+different V is a dimensionless, scale-free prediction.  Comparison class: labels n = +-1..+-5.
+
+## T15_metallic_chains.py
+
+T15 -- THE METALLIC CHAINS.  Statement: the chain built from the metallic rule sigma_m: a -> a^m b, b -> a has gap
+labels in Z + Z*omega_m with omega_m = 1/(lambda_m + 1) the frequency of the letter b, lambda_m = (m + sqrt(m^2+4))/2
+(omega_1 = 1/phi^2, omega_2 = 1 - 1/sqrt2, omega_3 = (5 - sqrt13)/6); the golden omega fails for m = 2, 3.  Experiment class: silver- and bronze-mean
+quasicrystal chains (realised in photonic lattices).  Comparison class: m = 1, 2, 3 and the wrong omega.

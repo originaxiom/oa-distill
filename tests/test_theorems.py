@@ -62,3 +62,20 @@ def test_T10_level_sets():
     d = load('T10')
     assert d['chain_kappa'] == '4*(V**2 + 1)' and d['n_fillings'] > 50 and d['real_longitude_fillings'] == []
     assert abs(d['longitude_trace_complete'][0] + 2) < 1e-8
+
+def test_T13_metallic_fields():
+    d = load('T13')
+    m1 = d['minpolys']['1']; assert '[3, -3, 1]' in m1 and '[3, 3, 1]' in m1 and len(m1) == 2
+    assert '[8, 0, -4, 0, 1]' in d['minpolys']['2']                  # x^4 - 4x^2 + 8: invariant field Q(x^2) = Q(i)
+    assert any(len(eval(k)) == 9 for k in d['minpolys']['3'] if k != 'unrecognised')   # the bronze octic
+    assert d['degrees']['1'] == [2]
+def test_T14_gap_law():
+    d = load('T14')
+    slopes = [v[0] for v in d['fits'].values()]
+    assert all(0.8 < s < 1.15 for s in slopes) and d['sites'] == 10946
+    assert d['widths']['1'][-1] > d['widths']['1'][0] * 10
+def test_T15_metallic_chains():
+    d = load('T15')
+    for m in ('1', '2', '3'):
+        assert d[m]['max_residual'] < 3 / d[m]['sites'] and abs(d[m]['omega'] - d[m]['freq_b']) < 1e-6
+    assert d['2']['max_residual_wrong_omega'] > 1e-2 and d['3']['max_residual_wrong_omega'] > 1e-2
