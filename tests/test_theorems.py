@@ -65,10 +65,15 @@ def test_T10_level_sets():
 
 def test_T13_metallic_fields():
     d = load('T13')
-    m1 = d['minpolys']['1']; assert '[3, -3, 1]' in m1 and '[3, 3, 1]' in m1 and len(m1) == 2
-    assert '[8, 0, -4, 0, 1]' in d['minpolys']['2']                  # x^4 - 4x^2 + 8: invariant field Q(x^2) = Q(i)
-    assert any(len(eval(k)) == 9 for k in d['minpolys']['3'] if k != 'unrecognised')   # the bronze octic
-    assert d['degrees']['1'] == [2]
+    assert all(d['geometric_found'][str(m)] for m in range(1, 5))
+    assert d['quadratic_discriminants']['1'] == [-3, -3, -3, -3] or -3 in d['quadratic_discriminants']['1']
+    assert all(-3 not in d['quadratic_discriminants'][str(m)] for m in (2, 3, 4))
+def test_T13b_bundles():
+    d = load('T13b'); c = load('T13b_closing')
+    assert d['1']['is_m004'] is True and [3, -3, 1] in d['1']['trace_minpolys'].values()
+    assert [8, 0, -4, 0, 1] in d['2']['trace_minpolys'].values() and [8, -4, 1] in d['2']['square_minpolys'].values()
+    assert d['3']['trace_degrees'] == [1, 8] and d['4']['square_degrees'] == [1, 4]
+    assert all(c[str(m)] is True for m in range(1, 5))
 def test_T14_gap_law():
     d = load('T14')
     slopes = [v[0] for v in d['fits'].values()]

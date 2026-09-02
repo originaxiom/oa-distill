@@ -19,9 +19,8 @@
 2. **Reopen the fork honestly (T16).** Implement the 3d index of the two triangulations with the internal acceptance
    test (invariance under re-triangulation, difference for m003). Cost: days of careful work. Payoff: the first
    object-level quantum invariant in the tree. It is 3d N = 2 physics, not the Standard Model; say so.
-3. **Close the m = 4 gap in T13** by extracting the bundles' fibre generators from SnapPy's bundle presentations and
-   evaluating the fibre character directly, then comparing with the record's fields per m. Cost: a day. Payoff: the
-   rule-side statement "conductor 3 is m = 1 alone" becomes exact for the whole class.
+3. **Done (T13/T13b).** The rule-side statement "conductor 3 is m = 1 alone" is exact for m = 1..4, and each metallic
+   bundle's fibre field is derived from its rule and the puncture, matching SnapPy's holonomy polynomial for polynomial.
 4. **Pre-register an absolute sign** (T12). Not possible today; becomes possible only if the lift sign θ acquires a
    physical reading. Do not force it.
 5. **Do not** build a map from the mapping torus to a 4d gauge theory. No such map exists in the record or in this
@@ -31,4 +30,4 @@
 
 Whether the program's public claim becomes "the substitution's physics is quasicrystal physics, with a sign dictionary
 for particle physics" (option 1 + 4), or whether the fork (option 2) is worth the days. The seat will execute
-whichever is elected; absent an election it proceeds with 3, then 2.
+whichever is elected; absent an election it proceeds with 2 (T16).
