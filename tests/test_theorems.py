@@ -46,3 +46,19 @@ def test_T08_spectrum():
     assert all(v[0] for v in d['k4_same'].values()) and d['four_letter_max_residual'] > 1e-3
     assert d['trace_map_matches_fricke'] is True and d['fricke_spread'] < 1e-12
     assert sorted(abs(r[3]) for r in d['labels']) == [1, 1, 1, 1, 2, 2, 3, 3, 4, 4, 6, 6]
+def test_T08_spectrum():
+    d = load('T08')
+    assert d['sites'] == 10946 and d['max_label_residual'] < 3 / d['sites'] and d['four_letter_max_residual'] > 1e-3
+    assert all(v[0] for v in d['k4_same'].values()) and d['trace_map_matches_fricke'] is True
+    assert abs(d['fricke_invariant'] - (4 + 4 * d['V'] ** 2)) < 1e-9 and d['fricke_spread'] == 0.0
+def test_T09_object_point():
+    d = load('T09')
+    assert d['fixed_curve'] == {'y': 'x/(x - 1)', 'z': 'x/(x - 1)'} and d['minpoly'] == 'x**2 - 3*x + 3' and d['discriminant'] == -3
+    assert abs(d['tr_comm'][0] + 2) < 1e-9 and abs(d['tr_comm'][1]) < 1e-9
+    assert d['conj_residual'] < 1e-9 and abs(abs(d['trT'][0]) - 2) < 1e-6 and abs(d['trT'][1]) < 1e-6 and d['cusp_abelian_residual'] < 1e-9
+    m1 = d['metallic_fixed_points']['1']; assert '3 - 3*x^1 + 1*x^2' in m1 and '3 + 3*x^1 + 1*x^2' in m1
+    assert all(len(d['metallic_fixed_points'][str(m)]) >= 1 for m in range(2, 5))
+def test_T10_level_sets():
+    d = load('T10')
+    assert d['chain_kappa'] == '4*(V**2 + 1)' and d['n_fillings'] > 50 and d['real_longitude_fillings'] == []
+    assert abs(d['longitude_trace_complete'][0] + 2) < 1e-8
