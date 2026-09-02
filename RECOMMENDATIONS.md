@@ -26,13 +26,34 @@
 5. **Do not** build a map from the mapping torus to a 4d gauge theory. No such map exists in the record or in this
    tree; the instrument-image rule (RULES 3) would reject every candidate the record produced.
 
-## Addendum after the E6 audit (audit/AUDIT.md)
+## Addendum after the E6 audit (audit/AUDIT.md §1–§6)
 
 Before values, the chain from E6 reaches su(3)+su(2)+3U(1) on six hyperplanes of the 2T-torus, SU(5)+2U(1) and
 SO(10)+U(1) on smaller strata, and never the 12-dimensional Standard Model algebra (rank theorem). The two extra U(1)s
-are forced by the method, not a loose end. Any continuation toward the Standard Model must therefore add a mechanism
-that is not a centralizer (a Higgs sector or a non-semisimple measurement), and must say what selects one of the six
-hyperplanes. Neither exists in the record. Recommendation 5 stands, strengthened.
+are forced by the method, not a loose end.
+
+## Addendum after reading the whole unification record (audit/AUDIT.md §7–§9)
+
+The record already holds this: B950 caught 14 ≠ 12, B952 proved the rank theorem, B964 named the missing piece (the
+rank-reducing 27 VEV; the cascade is an adjoint Higgs mechanism), and two candidate mechanisms were computed — the 27-VEV
+route (a canonical line and a purity condition, but a point the object provably cannot select; Route A open) and the
+holonomy hatch (rank 4 at the A2 stratum). The audit's A7/A8 reproduce the hatch's centralizers and the 18 exact
+hypercharge directions, and read them: the A2 landing is trinification with colour broken to SO(3)_C — the rank drop is
+paid with colour, not with the two extra U(1)s — so no sl(2) stratum gives the unbroken SM product at rank 4. The Higgs
+representation (doublets in the 10 ⊂ 27, charge-forced Yukawa support) is derived structure, standard E6 content; the
+Higgs mechanism (GUT VEV point, doublet–triplet splitting, the electroweak line one condition short, the VEV and mass) is
+external, part by theorem. Reconciled: "12 vs 14" and "the Higgs sector" are located and priced in the record, not solved.
+
+Options this adds (the owner elects):
+
+6. **Adopt the record's downstream sentence, sharpened, wherever the 14 is written:** "SM ⊕ U(1)² on one of six
+   hyperplanes of the field-level torus; rank 4 is reached by the object's holonomy only with colour broken; the SM
+   product at rank 4 needs the 27-VEV point, which the object does not select." This is a wording change for cc, not a
+   computation.
+7. **The one computable lever the record names on the Higgs side** is the lepton-leg character fork (B1208 (b), codex
+   R030): it can close the Higgs line to a finite point set. Wait for it; do not rebuild it here.
+8. **Do not pursue the hatch as an SM route** unless a construction beyond sl(2)-factored holonomies is proposed; the
+   sl(2) stratum is exhausted (B1098's table + A7/A8). Recommendation 5 stands.
 
 ## What the owner has to decide
 

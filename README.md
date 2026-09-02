@@ -30,7 +30,11 @@ banked to origin-axiom `main` by this repository.
 
 ## Audit (not theorems): the record's chain from E6 to "SM structure", rebuilt from scratch
 
-`audit/AUDIT.md` with scripts `audit/A1`–`A6`: e6 built and verified; the principal sl(2) and the binary tetrahedral group;
+`audit/AUDIT.md` with scripts `audit/A1`–`A8`: e6 built and verified; the principal sl(2) and the binary tetrahedral group;
 Cent(2T) = u(1)⁴ (record reproduced); the centralizer ladder (reproduced); the complete stratification of the 2T-torus
 by root hyperplanes (new): generic su(3)+4U(1), six hyperplanes of su(3)+su(2)+3U(1), SU(5)+2U(1) and SO(10)+U(1) strata,
 and the rank theorem: the 12-dimensional Standard Model algebra can never be a centralizer in e6. Two U(1)s are forced.
+§7–§9 (after reading the whole unification record): the record caught this first (B950/B952) and computed two ways past
+it — the 27-VEV route (external point) and the holonomy hatch; A8 reproduces the hatch's centralizers, A7 the 18 exact
+hypercharge directions at the weight level, and reads them: the rank-4 landing is trinification with colour broken to
+SO(3)_C. The Higgs doublets are derived structure (10 ⊂ 27); the Higgs mechanism is external. `tests/test_audit.py`.
