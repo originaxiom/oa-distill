@@ -27,3 +27,10 @@ Run everything: `./run_all.sh` (SnapPy ≥ 3.3, sympy ≥ 1.12). Tests: `pytest 
 
 Provenance: origin-axiom, branch `claude/physics-seat-evaluation-8dkbrl`, cells R53–R56 and Phases F/G. Nothing here is
 banked to origin-axiom `main` by this repository.
+
+## Audit (not theorems): the record's chain from E6 to "SM structure", rebuilt from scratch
+
+`audit/AUDIT.md` with scripts `audit/A1`–`A6`: e6 built and verified; the principal sl(2) and the binary tetrahedral group;
+Cent(2T) = u(1)⁴ (record reproduced); the centralizer ladder (reproduced); the complete stratification of the 2T-torus
+by root hyperplanes (new): generic su(3)+4U(1), six hyperplanes of su(3)+su(2)+3U(1), SU(5)+2U(1) and SO(10)+U(1) strata,
+and the rank theorem: the 12-dimensional Standard Model algebra can never be a centralizer in e6. Two U(1)s are forced.

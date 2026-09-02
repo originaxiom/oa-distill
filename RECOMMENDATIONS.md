@@ -26,6 +26,14 @@
 5. **Do not** build a map from the mapping torus to a 4d gauge theory. No such map exists in the record or in this
    tree; the instrument-image rule (RULES 3) would reject every candidate the record produced.
 
+## Addendum after the E6 audit (audit/AUDIT.md)
+
+Before values, the chain from E6 reaches su(3)+su(2)+3U(1) on six hyperplanes of the 2T-torus, SU(5)+2U(1) and
+SO(10)+U(1) on smaller strata, and never the 12-dimensional Standard Model algebra (rank theorem). The two extra U(1)s
+are forced by the method, not a loose end. Any continuation toward the Standard Model must therefore add a mechanism
+that is not a centralizer (a Higgs sector or a non-semisimple measurement), and must say what selects one of the six
+hyperplanes. Neither exists in the record. Recommendation 5 stands, strengthened.
+
 ## What the owner has to decide
 
 Whether the program's public claim becomes "the substitution's physics is quasicrystal physics, with a sign dictionary
