@@ -59,8 +59,8 @@ that the origin-axiom record built on emit only E6 or E8 and are constant on the
 
 ## Open work before submission
 
-1. Literature check: gap labelling (Bellissard), the KKT trace map, metallic-mean chains, Markoff fixed points of
-   pseudo-Anosov maps (the fibre-character-as-fixed-point statement may be classical). Novelty claims only after this.
+1. Literature check: DONE (LITERATURE.md). Laws 1–3 and the trace map are known theorems and experiments; the
+   fibre-character-as-fixed-point statement is classical. This draft is an expository verification note; no novelty.
 2. Off-diagonal (hopping-modulated) version of Laws 1–3 for platforms that modulate hopping rather than on-site energy.
 3. Finite-size scaling of the label residuals (1/N observed; state it as a theorem or as numerics).
 4. Figures: spectrum vs V; gap widths vs V on log-log; the fixed curve and Markoff surface with the two points.

@@ -11,11 +11,11 @@
 
 ## Options, with the seat's recommendation first
 
-1. **(Recommended) Make the rule's chain the program's physics and publish it as such.** Deliverable: a short paper,
-   "Gap labels, linear gap opening and the Fricke trace map of the Fibonacci and metallic chains", from T08/T14/T15 with
-   the experiment classes named. Cost: weeks. Risk: it is known territory (gap labelling is a theorem; the trace map is
-   Kohmoto–Kadanoff–Tang); the novelty is the derivation from the substitution's Fricke action and the metallic
-   comparison class, which should be checked against the literature before any novelty claim.
+1. **(Recommended) Make the rule's chain the program's physics and say plainly that it is known physics.** The
+   literature check (LITERATURE.md) found every law in T08/T14/T15 already proved and measured, and T09's fixed-point
+   statement classical. The honest deliverable is an expository verification note (PAPER_DRAFT.md), not a discovery
+   paper. Its worth: the program finally owns one physical statement that is true, derived from its axiom A1, and
+   confirmed by others.
 2. **Reopen the fork honestly (T16).** Implement the 3d index of the two triangulations with the internal acceptance
    test (invariance under re-triangulation, difference for m003). Cost: days of careful work. Payoff: the first
    object-level quantum invariant in the tree. It is 3d N = 2 physics, not the Standard Model; say so.
