@@ -126,3 +126,20 @@ T15 -- THE METALLIC CHAINS.  Statement: the chain built from the metallic rule s
 labels in Z + Z*omega_m with omega_m = 1/(lambda_m + 1) the frequency of the letter b, lambda_m = (m + sqrt(m^2+4))/2
 (omega_1 = 1/phi^2, omega_2 = 1 - 1/sqrt2, omega_3 = (5 - sqrt13)/6); the golden omega fails for m = 2, 3.  Experiment class: silver- and bronze-mean
 quasicrystal chains (realised in photonic lattices).  Comparison class: m = 1, 2, 3 and the wrong omega.
+
+## T17_beta_odd_bit.py
+
+T17 -- THE OBJECT'S ONE beta-ODD OUTPUT IS 2-TORSION, AND UNDER THE DECLARED DICTIONARY IT IS THE STRONG CP BIT.
+Statement.  (i) The Chern-Simons invariant of m004 is odd under every orientation-reversing self-isometry; the closing
+lattice's two axes c (mirror) and gamma5 (flow reversal) are both orientation-reversing self-isometries, so CS is
+(c-odd, gamma5-odd) -- the lattice's ABSENT axis -- and hence 2-torsion: CS in {0, 1/4} mod 1/2 (B1224/B1227), m004 at 0.
+(ii) Under the dictionary c = P, gamma5 = T (T07, declared input A8) the (c-odd, gamma5-odd) type is (P-odd, C-even,
+T-odd) = the E type; the Standard Model's only dimensionless E-type parameter is the strong phase theta-bar, whose
+CP-conserving values are the 2-torsion of R/2piZ, {0, pi}.  The unique group isomorphism of the two Z/2's maps m004's
+datum to theta-bar = 0.  The K-type phases (delta_CKM, delta_PMNS: C-odd, T-odd) map to the gamma5 row, a free bit.
+So the dictionary predicts: strong CP conserved, weak CP free.  (iii) Failability (MB12): a chiral manifold has generic
+CS (593 of 594 chiral census manifolds are not 2-torsion), so the prediction is not vacuous; the class-sibling m003
+sits at 1/4 -> theta-bar = pi; the closed worlds m004(1,n) have definite-sign CS with |CS| -> 0 only as n -> infinity.
+Not claimed: the value of theta-bar beyond the bit; that the object's mirror IS the strong sector's CP (declared, A8);
+B813's refutation of the VALUE identification CS = theta stands (this is a Z/2 -> Z/2 map, no coefficient slot).
+Comparison class: the 14-member field class of m004, the one-cusped census, m004's (1,n) closings.
